@@ -22,7 +22,7 @@ Or install it yourself as:
 ## Usage
 
 ### Setup
-
+```ruby
 require 'foneapi-ruby'
 
 # put your own credentials here
@@ -35,14 +35,14 @@ fapi_host = 'http://yourfoneapiserver.com'
 
 # alternatively, you can preconfigure the client like so
 Foneapi.configure do |config|
-  config.fapi_key = fapi_key
-  config.fapi_secret = fapi_secret
-  config.fapi_host = fapi_host
+    config.fapi_key = fapi_key
+    config.fapi_secret = fapi_secret
+    config.fapi_host = fapi_host
 end
 
 # and then you can create a new client without parameters
 @client = Foneapi::Rest::Client.new
-
+```
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/my_gem/fork )
