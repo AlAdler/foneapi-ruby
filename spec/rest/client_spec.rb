@@ -1,5 +1,3 @@
-require 'foneapi-ruby/rest/client'
-
 describe Foneapi::Rest::Client do
   describe 'config at class level' do
     after(:each) do

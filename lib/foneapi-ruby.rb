@@ -1,3 +1,7 @@
+
+require 'forwardable'
+
+require 'foneapi-ruby/rest/client'
 require 'foneapi-ruby/util/configuration'
 
 module Foneapi

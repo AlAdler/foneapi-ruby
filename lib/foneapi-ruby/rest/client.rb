@@ -1,5 +1,3 @@
-require 'foneapi-ruby'
-
 module Foneapi
     module Rest
         class Client
